@@ -397,8 +397,8 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"mainnet.bitzec.org", "dnsseed.bitzec.org", ""};
-static const string testnet_seeds[] = {"testnet.bitzec.org", "explorer.testnet.bitzec.org", ""};
+static const string mainnet_seeds[] = {"seed.bitzec.org", ""};
+static const string testnet_seeds[] = {"seedtestnet.bitzec.org", ""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
