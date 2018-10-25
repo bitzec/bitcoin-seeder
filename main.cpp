@@ -443,10 +443,10 @@ int main(int argc, char **argv) {
   bool fDNS = true;
   if (opts.fUseTestNet) {
       printf("Using testnet.\n");
-      pchMessageStart[0] = 0xaa;
-      pchMessageStart[1] = 0xe7;
-      pchMessageStart[2] = 0x3f;
-      pchMessageStart[3] = 0x5f;
+      pchMessageStart[0] = 0xfa;
+      pchMessageStart[1] = 0x1a;
+      pchMessageStart[2] = 0xf9;
+      pchMessageStart[3] = 0xbf;
       seeds = testnet_seeds;
       fTestNet = true;
   }
